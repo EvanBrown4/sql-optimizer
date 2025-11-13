@@ -1,0 +1,112 @@
+SQL Query Doctor — Full TODO List
+0. Project Setup
+
+Create repository.
+
+Initialize TypeScript project.
+
+Add basic folder structure.
+
+Add build/test scripts.
+
+1. Core Interfaces
+
+Define AST interfaces.
+
+Define QueryProfile structure.
+
+Define Diagnostic interface.
+
+Define RewriteSet interface.
+
+Define QueryDoctorResult interface.
+
+Define main engine interface.
+
+2. Parser Layer
+
+Choose SQL parser library for MVP.
+
+Build parser adapter.
+
+Map library AST → internal AST.
+
+Implement basic error handling.
+
+3. Analyzer Layer
+
+Implement AST walker.
+
+Implement profile computation.
+
+Add metrics for tables, joins, select-star, group-by, order-by, etc.
+
+4. Rule Engine
+
+Define rule interface.
+
+Define rule context.
+
+Implement initial rule set.
+
+Implement rule runner.
+
+5. Formatter & Explanation
+
+Implement SQL formatter (use library).
+
+Implement basic explanation generator.
+
+6. Rewriter
+
+Define rewriter interface.
+
+Implement clean-mode placeholder.
+
+Implement optimized-mode placeholder.
+
+7. Main Engine Assembly
+
+Implement analyze() pipeline.
+
+Parse SQL.
+
+Compute profile.
+
+Run rules.
+
+Generate explanation.
+
+Generate rewrites.
+
+Format SQL.
+
+Return full result object.
+
+8. CLI
+
+Implement CLI wrapper.
+
+Connect CLI to engine.
+
+9. Testing
+
+Test parser mapping.
+
+Test profile computation.
+
+Test individual rules.
+
+Test full integration path.
+
+10. Post-MVP Extensions
+
+Add more SQL dialects.
+
+Add real AST rewrites.
+
+Add Web UI.
+
+Build VSCode extension.
+
+Optional Rust rewrite of parser/analyzer.

@@ -1,3 +1,12 @@
+---
+name: Task TODO
+about: Add a new task to the project.
+title: "[Task]"
+labels: task
+assignees: <your_profile_name>
+---
+
+
 ## 🎯 Task
 _A short, action-focused summary of the goal._
 
