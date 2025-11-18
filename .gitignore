@@ -1,2 +1,5 @@
-.sql
-.txt
+*.sql
+*.txt
+node_modules/
+dist/
+*.log

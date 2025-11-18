@@ -1,7 +1,7 @@
 ---
 name: Task TODO
 about: Add a new task to the project.
-title: "[Task]"
+title: "task: [task name]"
 labels: task
 assignees: <your_profile_name>
 ---
